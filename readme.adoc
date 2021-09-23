@@ -53,7 +53,7 @@ export const pipelineUrl: string = ''; // pipeline的URL
 > release-tools@1.0.0 generatePipeline /Users/lqqu/release-tools
 > ts-node ./src/generatePipeline.ts
 
-~/OTR/otr-github-scripts/release-tools master* 9s ❯
+~/release-tools master* 9s ❯
 ----
 . 检查uat的部署情况
 [source, bash]
@@ -66,7 +66,7 @@ export const pipelineUrl: string = ''; // pipeline的URL
 <PIPELINE URL>/pipeline/activity/application-tablet-plus-release  not deploy uat
 <PIPELINE URL>/pipeline/activity/service-api-gateway-migration-plus-release  not deploy uat
 
-~/OTR/otr-github-scripts/release-tools master* 8s ❯
+~/release-tools master* 8s ❯
 ----
 
 . 检查ready for release点击情况
@@ -85,5 +85,5 @@ ready for release pipelines!
 pipeline-name :pipelineVersion //@trigger User <user email>
 
 tw.gocd-plus-release:73 //@XiaoQu <qulianqing1314@qq.com>
-~/OTR/otr-github-scripts/release-tools master* 7s ❯
+~/release-tools master* 7s ❯
 ----
