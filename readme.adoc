@@ -63,8 +63,7 @@ export const pipelineUrl: string = ''; // pipeline的URL
 > release-tools@1.0.0 checkDeployUat /Users/lqqu/release-tools
 > ts-node src/checkDeployUat.ts
 
-<PIPELINE URL>/pipeline/activity/application-tablet-plus-release  not deploy uat
-<PIPELINE URL>/pipeline/activity/service-api-gateway-migration-plus-release  not deploy uat
+<PIPELINE URL>/pipeline/activity/xxxx  not deploy uat
 
 ~/release-tools master* 8s ❯
 ----
@@ -77,8 +76,7 @@ export const pipelineUrl: string = ''; // pipeline的URL
 > release-tools@1.0.0 checkReadyForRelease /Users/lqqu/release-tools
 > ts-node ./src/checkReadyForRelease.ts
 
-<PIPELINE URL>/pipeline/activity/aftersales-order-integration-plus-release not ready for release
-<PIPELINE URL>/pipeline/activity/application-tablet-plus-release not ready for release
+<PIPELINE URL>/pipeline/activity/<pipelineName> not ready for release
 ----------------------------
 ready for release pipelines!
 ----------------------------
